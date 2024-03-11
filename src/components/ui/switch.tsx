@@ -111,10 +111,11 @@ const SwitchContainer = styled.Pressable``;
 // `;
 
 const Bar = styled(Animated.View)`
-  width: 60px;
-  height: 25px;
+  width: 45px;
+  height: 28px;
   background-color: #fda0b0;
   border-radius: 20px;
+  justify-content: center;
 `;
 
 const Circle = styled(Animated.View)`
@@ -122,6 +123,7 @@ const Circle = styled(Animated.View)`
   height: 25px;
   background-color: gray;
   border-radius: 12.5px;
+  margin-left: 1px;
 `;
 
 const ShoadowStyle = {
