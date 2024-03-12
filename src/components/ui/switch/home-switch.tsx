@@ -10,9 +10,9 @@ export default function HomeSwitch() {
   };
 
   return (
-    <View className="flex-1 justify-center items-center">
+    <View>
       <Switch_ value={on} onChange={onSwitchChange} />
-      <Switch value={true} />
+      {/* <Switch value={true} /> */}
     </View>
   );
 }

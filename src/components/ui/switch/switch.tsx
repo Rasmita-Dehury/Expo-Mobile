@@ -83,13 +83,13 @@ export default function Switch({ value, onChange }: PropTypes) {
   );
 }
 
-function YellowBox({ children }) {
-  return (
-    <View className="w-48 h-48 lg:bg-red-200 md:rounded-full lg-rounded-md md:bg-amber-300 bg-green-300 rounded-md justify-center items-center">
-      {children}
-    </View>
-  );
-}
+// function YellowBox({ children }) {
+//   return (
+//     <View className="w-48 h-48 lg:bg-red-200 md:rounded-full lg-rounded-md md:bg-amber-300 bg-green-300 rounded-md justify-center items-center">
+//       {children}
+//     </View>
+//   );
+// }
 
 const SwitchContainer = styled.Pressable``;
 
@@ -101,14 +101,15 @@ const SwitchContainer = styled.Pressable``;
 //   return <CircleStyle style={[ShoadowStyle, style]}></CircleStyle>;
 // }
 
-// const YellowBox = styled(Animated.View)`
-//   width: 192px;
-//   height: 192px;
-//   background-color: yellow;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// `;
+const YellowBox = styled(Animated.View)`
+  /* width: 192px;
+  height: 192px; */
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+`;
 
 const Bar = styled(Animated.View)`
   width: 45px;
